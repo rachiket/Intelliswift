@@ -1,0 +1,31 @@
+<div class="a">
+  <div class="div1" style="text-align: center;">
+  <div class="login-box" >
+    
+    <h1 style="font-size: 40px; ">LOGIN</h1>
+    <br><br>
+    <form  #myForm="ngForm" (ngSubmit)="login(myForm)" role="form" style="border: black; border-style: ridge;  ">
+        <p style="font-size: 25px">Username:</p>
+          <span id="spn" style="color:red"></span>	
+          <input type="text" id="txt" ngModel name="username" required="required" placeholder="Enter Your Username" >	
+
+  
+      <br><br>
+        <p style="font-size: 25px">Password:</p>
+          <input type="password" id="pwd" ngModel name="password" required="required" placeholder="Enter Your Password" >
+          <span id="spn1" style="color:red"></span><br><br>		<br>
+      
+            <input type="submit" name="submit" value="Login"> 
+            <input type="button" name="submit" value="Reset"> 
+    <br><br>
+          <h6>Username : rachiket</h6>
+          <h6>Password : rachiket123</h6>
+    </form>
+    
+  </div>
+  </div>
+  </div>
+
+  
+
+
